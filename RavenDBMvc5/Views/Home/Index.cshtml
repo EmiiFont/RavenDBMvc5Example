@@ -1,0 +1,89 @@
+﻿@using Newtonsoft.Json
+@model List<RavenDBMvc5.Core.Entities.Items>
+
+@{
+    ViewBag.Title = "Home Page";  
+}
+
+@section scripts
+{
+    
+    <script type="text/javascript">
+        $(function() {
+
+            $(".saveData").live("click", function() {
+                var name = $(this).parent().parent().find("input[name=name]").val(),
+                    price = $(this).parent().parent().find("input[name=price]").val();
+
+                $.ajax({
+                    url: "/Home/SaveData",
+                    data: { Name: name, Price: price },
+                    type: "POST",
+                    success: function(result) {
+                        if (result > 0) {
+                            console.log("Successfully Added");
+                        }
+                    },
+                    error: function(error) {
+
+                    }
+                });
+            });
+
+        });
+        var TableViewModel = function(data) {
+            var self = this;
+            //mapping data from model
+            self.items = ko.observableArray();
+
+            ko.mapping.fromJS(data, {}, self.items);
+
+            self.removeItem = function(item) {
+                self.items.remove(item);
+            };
+
+            self.addItem = function() {
+                self.items.push({
+                    Name: "",
+                    Price: ""
+                });
+            };
+
+        };
+
+        var model = @Html.Raw(JsonConvert.SerializeObject(Model));
+        var viewModel = new TableViewModel(model);
+        ko.applyBindings(viewModel);
+
+    </script>
+    }
+
+
+
+    <div class="hero-unit">
+        <h1>Example KnockoutJS with RavenDB</h1>
+        <p class="lead">Simple examble using RavenDB as dataStore and Ninject as IoC</p>
+        <p><a href="https://github.com/EmiiFont" class="btn btn-primary btn-large">Github</a></p>
+    </div>
+    <div class="row">
+        <div class="span8">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: items">
+                    <tr>
+                        <td><input type="text" name="name" data-bind="value: Name" value="" /></td>
+                        <td><input type="text" name="price" data-bind="value: Price" value="" /></td>
+                        <td><a class="btn btn-primary saveData">Save Data</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="btn btn-primary" data-bind="click: addItem">Add</button>
+        </div>
+    </div>
+

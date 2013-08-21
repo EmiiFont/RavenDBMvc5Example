@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B40B6087-8F20-47A1-BE1B-72970695AA46}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDBMvc5.Services", "Raven.DataLayer\RavenDBMvc5.Services.csproj", "{4CCAAAA2-6F9B-46BD-BE8E-F49F323C6BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDBMvc5.Core", "RavenDBMvc5.Core\RavenDBMvc5.Core.csproj", "{A388DB17-7D52-403A-A6D0-44897ED2E07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDBMvc5.Web", "RavenDBMvc5\RavenDBMvc5.Web.csproj", "{08937421-2331-4CF3-976A-B3187016FCD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCAAAA2-6F9B-46BD-BE8E-F49F323C6BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCAAAA2-6F9B-46BD-BE8E-F49F323C6BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCAAAA2-6F9B-46BD-BE8E-F49F323C6BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCAAAA2-6F9B-46BD-BE8E-F49F323C6BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A388DB17-7D52-403A-A6D0-44897ED2E07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A388DB17-7D52-403A-A6D0-44897ED2E07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A388DB17-7D52-403A-A6D0-44897ED2E07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A388DB17-7D52-403A-A6D0-44897ED2E07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08937421-2331-4CF3-976A-B3187016FCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08937421-2331-4CF3-976A-B3187016FCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08937421-2331-4CF3-976A-B3187016FCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08937421-2331-4CF3-976A-B3187016FCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

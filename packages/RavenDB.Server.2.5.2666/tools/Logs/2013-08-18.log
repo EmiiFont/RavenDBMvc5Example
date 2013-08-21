@@ -1,0 +1,620 @@
+time,logger,level,database,message,exception
+2013-08-18 21:09:30.2147,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 21:09:30.2147,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 21:09:30.2147,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 21:09:30.2147,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 21:09:34.0082,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-18 21:09:34.0082,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-18 21:09:34.3385,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-18 21:09:34.3385,Raven.Database.Server.HttpServer,Debug,,"Request #1,496: GET     -   639 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1059899378",
+2013-08-18 21:09:43.0483,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-18 21:09:43.0483,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-18 21:09:55.5937,Raven.Database.Impl.DocumentCacher,Info,Mvc5DB,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3160408064
+  PollingInterval     = 00:02:00",
+2013-08-18 21:09:55.7578,Raven.Storage.Esent.TransactionalStorage,Info,Mvc5DB,"Esent Settings:
+  MaxVerPages      = 16384
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2013-08-18 21:10:12.1918,Raven.Database.Storage.IndexDefinitionStorage,Info,Mvc5DB,"New index Raven%2fDocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+
+public class Index_Raven_2fDocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_2fDocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+let Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""]
+select new { Tag, LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""] };"";
+		this.AddMapDefinition(docs => 
+			from doc in docs
+			let Tag = doc[""@metadata""][""Raven-Entity-Name""]
+			select new {
+				Tag,
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				__document_id = doc.__document_id
+			});
+		this.AddField(""LastModified"");
+		this.AddField(""__document_id"");
+		this.AddField(""Tag"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+
+public class Index_Raven_2fDocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_2fDocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+let Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""]
+select new { Tag, LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""] };"";
+		this.AddMapDefinition(docs => 
+			from doc in docs
+			let Tag = doc[""@metadata""][""Raven-Entity-Name""]
+			select new {
+				Tag,
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				__document_id = doc.__document_id
+			});
+		this.AddField(""LastModified"");
+		this.AddField(""__document_id"");
+		this.AddField(""Tag"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2013-08-18 21:10:13.1824,Raven.Database.Indexing.IndexStorage.Startup,Debug,Mvc5DB,Loading saved index Raven/DocumentsByEntityName,
+2013-08-18 21:10:13.8489,Raven.Database.Indexing.IndexStorage.Startup,Warn,Mvc5DB,"Could not open index Raven/DocumentsByEntityName. Recovery operation failed, forcibly resetting index","System.InvalidOperationException: Index does not exists: Raven/DocumentsByEntityName
+   at Raven.Database.Indexing.IndexStorage.OpenOrCreateLuceneDirectory(IndexDefinition indexDefinition, String indexName, Boolean createIfMissing) in c:\Builds\RavenDB-Stable\Raven.Database\Indexing\IndexStorage.cs:line 294
+   at Raven.Database.Indexing.IndexStorage.OpenIndexOnStartup(String indexName) in c:\Builds\RavenDB-Stable\Raven.Database\Indexing\IndexStorage.cs:line 124"
+2013-08-18 21:10:19.6137,Raven.Database.Indexing.Index.Indexing,Debug,Mvc5DB,Creating index for Raven/DocumentsByEntityName,
+2013-08-18 21:10:20.5154,Raven.Database.Server.HttpServer,Debug,,"Request #1,497: GET     - 37,978 ms -            - 503 - /databases/Mvc5DB/changes/config?id=2/24j71U&command=unwatch-docs&noCache=839965132",
+2013-08-18 21:10:20.5154,Raven.Database.Server.HttpServer,Debug,,"Request #1,500: GET     - 37,982 ms -            - 503 - /databases/Mvc5DB/changes/config?id=2/24j71U&command=unwatch-indexes&noCache=-1862637309",
+2013-08-18 21:10:20.5154,Raven.Database.Server.HttpServer,Debug,,"Request #1,499: GET     - 187,554,071 ms -            - 503 - /databases/Mvc5DB/stats?noCache=-32970041",
+2013-08-18 21:10:20.5154,Raven.Database.Server.HttpServer,Debug,,"Request #1,498: GET     - 50,299 ms -            - 503 - /databases/Mvc5DB/stats?noCache=1923231533",
+2013-08-18 21:10:20.5454,Raven.Database.Server.HttpServer,Debug,,"Request #1,502: GET     - 187,542,015 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:20.5454,Raven.Database.Server.HttpServer,Debug,,"Request #1,501: GET     - 187,542,024 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:20.5454,Raven.Database.Server.HttpServer,Debug,,"Request #1,504: GET     - 187,542,007 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:20.5454,Raven.Database.Server.HttpServer,Debug,,"Request #1,505: GET     - 46,845 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:20.5454,Raven.Database.Server.HttpServer,Debug,,"Request #1,503: GET     - 50,328 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:20.9607,Raven.Database.Indexing.WorkContext,Warn,Mvc5DB,"Could not setup performance counters properly because of access permissions, perf counters will not be used","System.Security.SecurityException: Requested registry access is not allowed.
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+   at System.Diagnostics.PerformanceCounterLib.CreateRegistryEntry(String categoryName, PerformanceCounterCategoryType categoryType, CounterCreationDataCollection creationData, Boolean& iniRegistered)
+   at System.Diagnostics.PerformanceCounterLib.RegisterCategory(String categoryName, PerformanceCounterCategoryType categoryType, String categoryHelp, CounterCreationDataCollection creationData)
+   at System.Diagnostics.PerformanceCounterCategory.Create(String categoryName, String categoryHelp, PerformanceCounterCategoryType categoryType, CounterCreationDataCollection counterData)
+   at Raven.Database.Indexing.WorkContext.SetupPerformanceCounter(String name) in c:\Builds\RavenDB-Stable\Raven.Database\Indexing\WorkContext.cs:line 337
+   at Raven.Database.Indexing.WorkContext.Init(String name) in c:\Builds\RavenDB-Stable\Raven.Database\Indexing\WorkContext.cs:line 377
+The Zone of the assembly that failed was:
+MyComputer"
+2013-08-18 21:10:22.5838,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Mvc5DB,Document with key 'Raven/Backup/Periodic/Setup' was not found,
+2013-08-18 21:10:22.5838,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Backup/Status' was not found,
+2013-08-18 21:10:22.6508,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:10:22.7419,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:10:24.4760,Raven.Database.Server.HttpServer,Debug,,"Request #1,506: GET     - 3,949 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=unwatch-indexes&noCache=-1070902341",
+2013-08-18 21:10:26.5745,Raven.Database.Server.Abstractions.HttpListenerContextAdpater,Info,,Failed to close response,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Raven.Database.Util.Streams.BufferPoolStream.Dispose(Boolean disposing) in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 144
+   at System.IO.Stream.Close()
+   at Raven.Database.Impl.ExceptionAggregator.Execute(Action action) in c:\Builds\RavenDB-Stable\Raven.Database\Impl\ExceptionAggregator.cs:line 25
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Raven.Database.Util.Streams.BufferPoolStream.Dispose(Boolean disposing) in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 144
+   at System.IO.Stream.Close()
+   at Raven.Database.Impl.ExceptionAggregator.Execute(Action action) in c:\Builds\RavenDB-Stable\Raven.Database\Impl\ExceptionAggregator.cs:line 25<---
+"
+2013-08-18 21:10:26.5745,Raven.Database.Server.Abstractions.HttpListenerContextAdpater,Info,,Failed to close response,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Raven.Database.Util.Streams.BufferPoolStream.Dispose(Boolean disposing) in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 144
+   at System.IO.Stream.Close()
+   at Raven.Database.Impl.ExceptionAggregator.Execute(Action action) in c:\Builds\RavenDB-Stable\Raven.Database\Impl\ExceptionAggregator.cs:line 25
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Raven.Database.Util.Streams.BufferPoolStream.Dispose(Boolean disposing) in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 144
+   at System.IO.Stream.Close()
+   at Raven.Database.Impl.ExceptionAggregator.Execute(Action action) in c:\Builds\RavenDB-Stable\Raven.Database\Impl\ExceptionAggregator.cs:line 25<---
+"
+2013-08-18 21:10:26.9327,Raven.Database.Server.HttpServer,Debug,,"Request #1,507: GET     - 187,548,394 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:26.9327,Raven.Database.Server.HttpServer,Debug,,"Request #1,508: GET     - 187,548,410 ms -            - 503 - /databases/Mvc5DB/changes/events?id=2/24j71U",
+2013-08-18 21:10:27.4750,Raven.Database.Server.HttpServer,Debug,,"Request #1,509: GET     -   144 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-460752081",
+2013-08-18 21:10:28.8800,Raven.Database.Server.HttpServer,Debug,,"Request #1,510: GET     - 1,548 ms - Mvc5DB     - 200 - /stats?noCache=-1044255975",
+2013-08-18 21:10:34.4327,Raven.Database.Server.HttpServer,Debug,,"Request #1,511: GET     -    56 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1502477389",
+2013-08-18 21:10:34.4667,Raven.Database.Server.HttpServer,Debug,,"Request #1,512: GET     -    90 ms - Mvc5DB     - 200 - /stats?noCache=279269859",
+2013-08-18 21:10:39.5802,Raven.Database.Server.HttpServer,Debug,,"Request #1,513: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=-1643938429",
+2013-08-18 21:10:40.5829,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,514: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-18 21:10:40.5829,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,515: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-18 21:10:40.5899,Raven.Database.Server.HttpServer,Debug,,"Request #1,516: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-doc&value=Raven/Alerts&noCache=-538524887",
+2013-08-18 21:10:40.5899,Raven.Database.Server.HttpServer,Debug,,"Request #1,517: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-doc&value=Raven/Alerts&noCache=-98265963",
+2013-08-18 21:10:40.6369,Raven.Database.Server.HttpServer,Debug,,"Request #1,518: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-doc&value=Raven/Alerts&noCache=-1189825274",
+2013-08-18 21:10:45.0399,Raven.Database.Server.HttpServer,Debug,,"Request #1,519: GET     -   322 ms - Mvc5DB     - 200 - /stats?noCache=-1863470491",
+2013-08-18 21:10:50.4255,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:10:50.4255,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:10:50.7867,Raven.Database.Server.HttpServer,Debug,,"Request #1,520: GET     -    35 ms - Mvc5DB     - 200 - /stats?noCache=1592600453",
+2013-08-18 21:11:05.5936,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,521: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-18 21:11:05.7537,Raven.Database.Server.HttpServer,Debug,,"Request #1,522: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-doc&value=Raven/Alerts&noCache=-1030295180",
+2013-08-18 21:11:14.6379,Raven.Database.Server.HttpServer,Debug,,"Request #1,523: GET     -   464 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1472107871",
+2013-08-18 21:11:14.6379,Raven.Database.Server.HttpServer,Debug,,"Request #1,524: GET     -   477 ms - Mvc5DB     - 200 - /stats?noCache=-480642919",
+2013-08-18 21:20:22.6509,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:20:22.7450,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:20:50.4255,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:20:50.4535,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:20:56.1184,Raven.Database.Server.HttpServer,Debug,,"Request #1,525: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1516788058",
+2013-08-18 21:20:56.1264,Raven.Database.Server.HttpServer,Debug,,"Request #1,526: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=1548137630",
+2013-08-18 21:21:06.3242,Raven.Database.Server.HttpServer,Debug,,"Request #1,527: GET     -    30 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1549391854",
+2013-08-18 21:21:06.3862,Raven.Database.Server.HttpServer,Debug,,"Request #1,528: GET     -    91 ms - Mvc5DB     - 200 - /stats?noCache=913617248",
+2013-08-18 21:21:21.6635,Raven.Database.Server.HttpServer,Debug,,"Request #1,529: GET     -    32 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1226550696",
+2013-08-18 21:21:21.6745,Raven.Database.Server.HttpServer,Debug,,"Request #1,530: GET     -    42 ms - Mvc5DB     - 200 - /stats?noCache=776062138",
+2013-08-18 21:21:47.2577,Raven.Database.Server.HttpServer,Debug,,"Request #1,531: GET     -    53 ms - Mvc5DB     - 200 - /stats?noCache=16184218",
+2013-08-18 21:22:02.5100,Raven.Database.Server.HttpServer,Debug,,"Request #1,532: GET     -    49 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1260300757",
+2013-08-18 21:22:02.5100,Raven.Database.Server.HttpServer,Debug,,"Request #1,533: GET     -    54 ms - Mvc5DB     - 200 - /stats?noCache=-1904505383",
+2013-08-18 21:22:38.4015,Raven.Database.Server.HttpServer,Debug,,"Request #1,534: GET     -    27 ms - Mvc5DB     - 200 - /stats?noCache=1918558331",
+2013-08-18 21:22:48.5593,Raven.Database.Server.HttpServer,Debug,,"Request #1,535: GET     -    37 ms - <system>   - 200 - /databases?pageSize=1024&noCache=571709650",
+2013-08-18 21:22:48.5593,Raven.Database.Server.HttpServer,Debug,,"Request #1,536: GET     -    47 ms - Mvc5DB     - 200 - /stats?noCache=-1008425064",
+2013-08-18 21:22:58.8492,Raven.Database.Server.HttpServer,Debug,,"Request #1,537: GET     -    53 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-970362060",
+2013-08-18 21:22:58.8633,Raven.Database.Server.HttpServer,Debug,,"Request #1,538: GET     -    66 ms - Mvc5DB     - 200 - /stats?noCache=1825523033",
+2013-08-18 21:24:31.0436,Raven.Database.Server.HttpServer,Debug,,"Request #1,539: GET     -    44 ms - Mvc5DB     - 200 - /stats?noCache=-83580074",
+2013-08-18 21:24:36.1290,Raven.Database.Server.HttpServer,Debug,,"Request #1,540: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=1339503621",
+2013-08-18 21:25:42.5648,Raven.Database.Server.HttpServer,Debug,,"Request #1,541: GET     -    28 ms - Mvc5DB     - 200 - /stats?noCache=-1011688920",
+2013-08-18 21:25:47.6882,Raven.Database.Server.HttpServer,Debug,,"Request #1,542: GET     -    45 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1986870994",
+2013-08-18 21:25:47.7203,Raven.Database.Server.HttpServer,Debug,,"Request #1,543: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-655092222",
+2013-08-18 21:26:56.0661,Raven.Database.Server.HttpServer,Debug,,"Request #1,544: GET     -    28 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1866564796",
+2013-08-18 21:26:56.0831,Raven.Database.Server.HttpServer,Debug,,"Request #1,545: GET     -    45 ms - Mvc5DB     - 200 - /stats?noCache=2033444768",
+2013-08-18 21:27:06.3260,Raven.Database.Server.HttpServer,Debug,,"Request #1,546: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-31662725",
+2013-08-18 21:27:06.3260,Raven.Database.Server.HttpServer,Debug,,"Request #1,547: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=1110078889",
+2013-08-18 21:27:26.7404,Raven.Database.Server.HttpServer,Debug,,"Request #1,548: GET     -    33 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1222089147",
+2013-08-18 21:27:26.7564,Raven.Database.Server.HttpServer,Debug,,"Request #1,549: GET     -    49 ms - Mvc5DB     - 200 - /stats?noCache=731436395",
+2013-08-18 21:27:42.2118,Raven.Database.Server.HttpServer,Debug,,"Request #1,550: GET     -    49 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1322032894",
+2013-08-18 21:27:42.2218,Raven.Database.Server.HttpServer,Debug,,"Request #1,551: GET     -    54 ms - Mvc5DB     - 200 - /stats?noCache=979717130",
+2013-08-18 21:28:38.5867,Raven.Database.Server.HttpServer,Debug,,"Request #1,552: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-796746450",
+2013-08-18 21:28:43.6932,Raven.Database.Server.HttpServer,Debug,,"Request #1,553: GET     -    30 ms - <system>   - 200 - /databases?pageSize=1024&noCache=738713783",
+2013-08-18 21:28:43.7032,Raven.Database.Server.HttpServer,Debug,,"Request #1,554: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=-1310358025",
+2013-08-18 21:28:59.0805,Raven.Database.Server.HttpServer,Debug,,"Request #1,555: GET     -    29 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1180454310",
+2013-08-18 21:28:59.0935,Raven.Database.Server.HttpServer,Debug,,"Request #1,556: GET     -    41 ms - Mvc5DB     - 200 - /stats?noCache=782684985",
+2013-08-18 21:30:15.7975,Raven.Database.Server.HttpServer,Debug,,"Request #1,557: GET     -    31 ms - Mvc5DB     - 200 - /stats?noCache=-1504706093",
+2013-08-18 21:30:22.6511,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:30:22.7481,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:30:31.1147,Raven.Database.Server.HttpServer,Debug,,"Request #1,558: GET     -    45 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1848301921",
+2013-08-18 21:30:31.1277,Raven.Database.Server.HttpServer,Debug,,"Request #1,559: GET     -    58 ms - Mvc5DB     - 200 - /stats?noCache=515430536",
+2013-08-18 21:30:41.3335,Raven.Database.Server.HttpServer,Debug,,"Request #1,560: GET     -    54 ms - <system>   - 200 - /databases?pageSize=1024&noCache=267635215",
+2013-08-18 21:30:41.3466,Raven.Database.Server.HttpServer,Debug,,"Request #1,561: GET     -    67 ms - Mvc5DB     - 200 - /stats?noCache=482745112",
+2013-08-18 21:30:50.4276,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:30:50.4636,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:31:06.9368,Raven.Database.Server.HttpServer,Debug,,"Request #1,562: GET     -    32 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1199728873",
+2013-08-18 21:31:07.0298,Raven.Database.Server.HttpServer,Debug,,"Request #1,563: GET     -   125 ms - Mvc5DB     - 200 - /stats?noCache=1304442617",
+2013-08-18 21:31:38.7091,Raven.Database.Server.HttpServer,Debug,,"Request #1,564: GET     -    30 ms - Mvc5DB     - 200 - /stats?noCache=-1308444498",
+2013-08-18 21:32:09.3997,Raven.Database.Server.HttpServer,Debug,,"Request #1,565: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=228412305",
+2013-08-18 21:32:09.4147,Raven.Database.Server.HttpServer,Debug,,"Request #1,566: GET     -    53 ms - Mvc5DB     - 200 - /stats?noCache=-203191710",
+2013-08-18 21:32:14.5061,Raven.Database.Server.HttpServer,Debug,,"Request #1,567: GET     -    61 ms - Mvc5DB     - 200 - /stats?noCache=-1585276197",
+2013-08-18 21:32:19.6506,Raven.Database.Server.HttpServer,Debug,,"Request #1,568: GET     -    38 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-227132157",
+2013-08-18 21:32:19.6506,Raven.Database.Server.HttpServer,Debug,,"Request #1,569: GET     -    46 ms - Mvc5DB     - 200 - /stats?noCache=-440909353",
+2013-08-18 21:32:29.9635,Raven.Database.Server.HttpServer,Debug,,"Request #1,570: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1360286173",
+2013-08-18 21:32:29.9635,Raven.Database.Server.HttpServer,Debug,,"Request #1,571: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=-687349574",
+2013-08-18 21:32:55.5716,Raven.Database.Server.HttpServer,Debug,,"Request #1,572: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=-730342547",
+2013-08-18 21:33:57.0410,Raven.Database.Server.HttpServer,Debug,,"Request #1,573: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=-1042892153",
+2013-08-18 21:34:07.3259,Raven.Database.Server.HttpServer,Debug,,"Request #1,574: GET     -    28 ms - <system>   - 200 - /databases?pageSize=1024&noCache=106887539",
+2013-08-18 21:34:07.3259,Raven.Database.Server.HttpServer,Debug,,"Request #1,575: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=-1315317212",
+2013-08-18 21:36:20.1114,Raven.Database.Server.HttpServer,Debug,,"Request #1,576: GET     -    34 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1398506591",
+2013-08-18 21:36:20.1194,Raven.Database.Server.HttpServer,Debug,,"Request #1,577: GET     -    42 ms - Mvc5DB     - 200 - /stats?noCache=-1277383352",
+2013-08-18 21:38:17.6023,Raven.Database.Server.HttpServer,Debug,,"Request #1,578: GET     -    51 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1706364356",
+2013-08-18 21:38:17.6123,Raven.Database.Server.HttpServer,Debug,,"Request #1,579: GET     -    60 ms - Mvc5DB     - 200 - /stats?noCache=1092006119",
+2013-08-18 21:38:48.1647,Raven.Database.Server.HttpServer,Debug,,"Request #1,580: GET     -    48 ms - <system>   - 200 - /databases?pageSize=1024&noCache=148415342",
+2013-08-18 21:38:48.2067,Raven.Database.Server.HttpServer,Debug,,"Request #1,581: GET     -    91 ms - Mvc5DB     - 200 - /stats?noCache=100985014",
+2013-08-18 21:38:54.2398,Raven.Database.Server.HttpServer,Debug,,"Request #1,582: GET     -    34 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-137105375",
+2013-08-18 21:38:54.2698,Raven.Database.Server.HttpServer,Debug,,"Request #1,583: GET     -    63 ms - Mvc5DB     - 200 - /stats?noCache=-1420236594",
+2013-08-18 21:39:15.7022,Raven.Database.Server.HttpServer,Debug,,"Request #1,584: GET     -    29 ms - Mvc5DB     - 200 - /stats?noCache=1695419663",
+2013-08-18 21:39:36.3531,Raven.Database.Server.HttpServer,Debug,,"Request #1,585: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=-980249283",
+2013-08-18 21:40:22.6523,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:40:22.7483,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:40:50.4289,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:40:50.4659,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:43:41.9048,Raven.Database.Server.HttpServer,Debug,,"Request #1,586: GET     -   281 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-220066621",
+2013-08-18 21:43:41.9438,Raven.Database.Server.HttpServer,Debug,,"Request #1,587: GET     -   320 ms - Mvc5DB     - 200 - /stats?noCache=1796507016",
+2013-08-18 21:44:38.8590,Raven.Database.Server.HttpServer,Debug,,"Request #1,588: GET     -    27 ms - Mvc5DB     - 200 - /stats?noCache=-925884954",
+2013-08-18 21:44:49.0668,Raven.Database.Server.HttpServer,Debug,,"Request #1,589: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=488830779",
+2013-08-18 21:44:54.1792,Raven.Database.Server.HttpServer,Debug,,"Request #1,590: GET     -    35 ms - Mvc5DB     - 200 - /stats?noCache=800218851",
+2013-08-18 21:44:59.2706,Raven.Database.Server.HttpServer,Debug,,"Request #1,591: GET     -    30 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-2032241973",
+2013-08-18 21:44:59.2816,Raven.Database.Server.HttpServer,Debug,,"Request #1,592: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=50876251",
+2013-08-18 21:45:04.3821,Raven.Database.Server.HttpServer,Debug,,"Request #1,593: GET     -    30 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-128363972",
+2013-08-18 21:45:04.3991,Raven.Database.Server.HttpServer,Debug,,"Request #1,594: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=811816201",
+2013-08-18 21:45:09.5686,Raven.Database.Server.HttpServer,Debug,,"Request #1,595: GET     -    94 ms - Mvc5DB     - 200 - /stats?noCache=221269050",
+2013-08-18 21:45:14.7260,Raven.Database.Server.HttpServer,Debug,,"Request #1,596: GET     -    38 ms - Mvc5DB     - 200 - /stats?noCache=1339509350",
+2013-08-18 21:45:24.8922,Raven.Database.Server.HttpServer,Debug,,"Request #1,597: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1238287907",
+2013-08-18 21:45:24.9012,Raven.Database.Server.HttpServer,Debug,,"Request #1,598: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=-1900033326",
+2013-08-18 21:45:30.0167,Raven.Database.Server.HttpServer,Debug,,"Request #1,599: GET     -    45 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-2030995999",
+2013-08-18 21:45:30.0287,Raven.Database.Server.HttpServer,Debug,,"Request #1,600: GET     -    56 ms - Mvc5DB     - 200 - /stats?noCache=456412916",
+2013-08-18 21:45:35.0911,Raven.Database.Server.HttpServer,Debug,,"Request #1,601: GET     -    35 ms - Mvc5DB     - 200 - /stats?noCache=-1180221333",
+2013-08-18 21:45:40.2235,Raven.Database.Server.HttpServer,Debug,,"Request #1,602: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=-1691564368",
+2013-08-18 21:45:45.3689,Raven.Database.Server.HttpServer,Debug,,"Request #1,603: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-116337901",
+2013-08-18 21:45:45.3789,Raven.Database.Server.HttpServer,Debug,,"Request #1,604: GET     -    51 ms - Mvc5DB     - 200 - /stats?noCache=-893750500",
+2013-08-18 21:45:50.5244,Raven.Database.Server.HttpServer,Debug,,"Request #1,605: GET     -    38 ms - Mvc5DB     - 200 - /stats?noCache=-109157438",
+2013-08-18 21:45:55.6006,Raven.Database.Server.HttpServer,Debug,,"Request #1,606: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=-794784261",
+2013-08-18 21:46:00.7200,Raven.Database.Server.HttpServer,Debug,,"Request #1,607: GET     -    29 ms - Mvc5DB     - 200 - /stats?noCache=-1654851348",
+2013-08-18 21:46:05.9375,Raven.Database.Server.HttpServer,Debug,,"Request #1,608: GET     -    76 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1174268273",
+2013-08-18 21:46:05.9575,Raven.Database.Server.HttpServer,Debug,,"Request #1,609: GET     -    98 ms - Mvc5DB     - 200 - /stats?noCache=-1127097433",
+2013-08-18 21:46:12.0376,Raven.Database.Server.HttpServer,Debug,,"Request #1,610: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1314119920",
+2013-08-18 21:46:12.0466,Raven.Database.Server.HttpServer,Debug,,"Request #1,611: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=-899019655",
+2013-08-18 21:46:17.1811,Raven.Database.Server.HttpServer,Debug,,"Request #1,612: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=101401090",
+2013-08-18 21:46:22.2324,Raven.Database.Server.HttpServer,Debug,,"Request #1,613: GET     -    32 ms - <system>   - 200 - /databases?pageSize=1024&noCache=2073283139",
+2013-08-18 21:46:22.2495,Raven.Database.Server.HttpServer,Debug,,"Request #1,614: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=665231703",
+2013-08-18 21:46:27.3629,Raven.Database.Server.HttpServer,Debug,,"Request #1,615: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=-139266623",
+2013-08-18 21:46:32.4444,Raven.Database.Server.HttpServer,Debug,,"Request #1,616: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=894463281",
+2013-08-18 21:46:47.7626,Raven.Database.Server.HttpServer,Debug,,"Request #1,617: GET     -    37 ms - Mvc5DB     - 200 - /stats?noCache=-223045444",
+2013-08-18 21:46:52.8968,Raven.Database.Server.HttpServer,Debug,,"Request #1,618: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=1494988082",
+2013-08-18 21:46:58.0233,Raven.Database.Server.HttpServer,Debug,,"Request #1,619: GET     -    37 ms - Mvc5DB     - 200 - /stats?noCache=2007682442",
+2013-08-18 21:47:03.2108,Raven.Database.Server.HttpServer,Debug,,"Request #1,620: GET     -    67 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1223277674",
+2013-08-18 21:47:03.2218,Raven.Database.Server.HttpServer,Debug,,"Request #1,621: GET     -    77 ms - Mvc5DB     - 200 - /stats?noCache=-623009404",
+2013-08-18 21:47:08.3352,Raven.Database.Server.HttpServer,Debug,,"Request #1,622: GET     -    45 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1906568030",
+2013-08-18 21:47:08.3402,Raven.Database.Server.HttpServer,Debug,,"Request #1,623: GET     -    53 ms - Mvc5DB     - 200 - /stats?noCache=255089553",
+2013-08-18 21:47:38.9448,Raven.Database.Server.HttpServer,Debug,,"Request #1,624: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=-1549119978",
+2013-08-18 21:47:44.0022,Raven.Database.Server.HttpServer,Debug,,"Request #1,625: GET     -    28 ms - Mvc5DB     - 200 - /stats?noCache=1730370500",
+2013-08-18 21:47:49.1577,Raven.Database.Server.HttpServer,Debug,,"Request #1,626: GET     -    60 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-934971137",
+2013-08-18 21:47:49.1667,Raven.Database.Server.HttpServer,Debug,,"Request #1,627: GET     -    66 ms - Mvc5DB     - 200 - /stats?noCache=263708373",
+2013-08-18 21:48:55.4112,Raven.Database.Server.HttpServer,Debug,,"Request #1,628: GET     -    29 ms - Mvc5DB     - 200 - /stats?noCache=-563900953",
+2013-08-18 21:49:00.5167,Raven.Database.Server.HttpServer,Debug,,"Request #1,629: GET     -    26 ms - <system>   - 200 - /databases?pageSize=1024&noCache=403479217",
+2013-08-18 21:49:00.5277,Raven.Database.Server.HttpServer,Debug,,"Request #1,630: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=539831371",
+2013-08-18 21:49:41.2822,Raven.Database.Server.HttpServer,Debug,,"Request #1,631: GET     -    32 ms - <system>   - 200 - /databases?pageSize=1024&noCache=316661684",
+2013-08-18 21:50:22.6530,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:50:22.7490,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:50:47.8849,Raven.Database.Server.HttpServer,Debug,,"Request #1,632: GET     -    26 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1124801641",
+2013-08-18 21:50:47.8849,Raven.Database.Server.HttpServer,Debug,,"Request #1,633: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=-1777738291",
+2013-08-18 21:50:50.4296,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 21:50:50.4676,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 21:51:44.0603,Raven.Database.Server.HttpServer,Debug,,"Request #1,634: GET     -    70 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1390637200",
+2013-08-18 21:51:44.0723,Raven.Database.Server.HttpServer,Debug,,"Request #1,635: GET     -    82 ms - Mvc5DB     - 200 - /stats?noCache=-467074168",
+2013-08-18 21:51:54.2278,Raven.Database.Server.HttpServer,Debug,,"Request #1,636: GET     -    38 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1862793154",
+2013-08-18 21:51:54.2418,Raven.Database.Server.HttpServer,Debug,,"Request #1,637: GET     -    53 ms - Mvc5DB     - 200 - /stats?noCache=-115544687",
+2013-08-18 21:51:59.3031,Raven.Database.Server.HttpServer,Debug,,"Request #1,638: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=-1404812473",
+2013-08-18 21:52:25.7335,Raven.Database.Server.HttpServer,Debug,,"Request #1,639: GET     -    31 ms - Mvc5DB     - 200 - /stats?noCache=-1830786260",
+2013-08-18 21:53:01.6226,Raven.Database.Server.HttpServer,Debug,,"Request #1,640: GET     -    92 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1903687225",
+2013-08-18 21:53:01.6226,Raven.Database.Server.HttpServer,Debug,,"Request #1,641: GET     -   100 ms - Mvc5DB     - 200 - /stats?noCache=1133797631",
+2013-08-18 21:53:12.8202,Raven.Database.Server.HttpServer,Debug,,"Request #1,642: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-1985081737",
+2013-08-18 21:53:58.9217,Raven.Database.Server.HttpServer,Debug,,"Request #1,643: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=1689558042",
+2013-08-18 21:54:19.3185,Raven.Database.Server.HttpServer,Debug,,"Request #1,644: GET     -    50 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1287461679",
+2013-08-18 21:54:19.3295,Raven.Database.Server.HttpServer,Debug,,"Request #1,645: GET     -    59 ms - Mvc5DB     - 200 - /stats?noCache=1253507121",
+2013-08-18 21:55:15.5953,Raven.Database.Server.HttpServer,Debug,,"Request #1,646: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=471072830",
+2013-08-18 21:55:46.2849,Raven.Database.Server.HttpServer,Debug,,"Request #1,647: GET     -    40 ms - Mvc5DB     - 200 - /stats?noCache=1160115675",
+2013-08-18 21:56:37.6005,Raven.Database.Server.HttpServer,Debug,,"Request #1,648: GET     -    31 ms - Mvc5DB     - 200 - /stats?noCache=-363305552",
+2013-08-18 21:56:47.8624,Raven.Database.Server.HttpServer,Debug,,"Request #1,649: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=-735909790",
+2013-08-18 21:56:53.0799,Raven.Database.Server.HttpServer,Debug,,"Request #1,650: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-2144719809",
+2013-08-18 21:56:58.1920,Raven.Database.Server.HttpServer,Debug,,"Request #1,651: GET     -    47 ms - Mvc5DB     - 200 - /stats?noCache=-514964655",
+2013-08-18 21:59:57.1428,Raven.Database.Server.HttpServer,Debug,,"Request #1,652: GET     -    37 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1778785501",
+2013-08-18 21:59:57.1428,Raven.Database.Server.HttpServer,Debug,,"Request #1,653: GET     -    41 ms - Mvc5DB     - 200 - /stats?noCache=282947855",
+2013-08-18 22:00:02.2964,Raven.Database.Server.HttpServer,Debug,,"Request #1,654: GET     -    58 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1583805845",
+2013-08-18 22:00:02.2964,Raven.Database.Server.HttpServer,Debug,,"Request #1,655: GET     -    64 ms - Mvc5DB     - 200 - /stats?noCache=1605502245",
+2013-08-18 22:00:22.6531,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:00:22.7101,Raven.Database.Server.HttpServer,Debug,,"Request #1,656: GET     -    47 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1022007418",
+2013-08-18 22:00:22.7231,Raven.Database.Server.HttpServer,Debug,,"Request #1,657: GET     -    60 ms - Mvc5DB     - 200 - /stats?noCache=-60561086",
+2013-08-18 22:00:22.7511,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:00:27.7695,Raven.Database.Server.HttpServer,Debug,,"Request #1,658: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=318968519",
+2013-08-18 22:00:43.1960,Raven.Database.Server.HttpServer,Debug,,"Request #1,659: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=-466092664",
+2013-08-18 22:00:50.4318,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:00:50.4689,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:01:24.0744,Raven.Database.Server.HttpServer,Debug,,"Request #1,660: GET     -    29 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-2126519198",
+2013-08-18 22:01:24.2285,Raven.Database.Server.HttpServer,Debug,,"Request #1,661: GET     -   184 ms - Mvc5DB     - 200 - /stats?noCache=-1104548744",
+2013-08-18 22:01:40.3991,Raven.Database.Server.HttpServer,Debug,,"Request #1,662: GET     -    37 ms - Mvc5DB     - 200 - /stats?noCache=-1670424751",
+2013-08-18 22:02:00.8658,Raven.Database.Server.HttpServer,Debug,,"Request #1,663: GET     -    36 ms - Mvc5DB     - 200 - /stats?noCache=981665964",
+2013-08-18 22:02:31.4792,Raven.Database.Server.HttpServer,Debug,,"Request #1,664: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=697662475",
+2013-08-18 22:02:46.7755,Raven.Database.Server.HttpServer,Debug,,"Request #1,665: GET     -    34 ms - <system>   - 200 - /databases?pageSize=1024&noCache=136247462",
+2013-08-18 22:02:46.7755,Raven.Database.Server.HttpServer,Debug,,"Request #1,666: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=-1934968985",
+2013-08-18 22:02:57.0634,Raven.Database.Server.HttpServer,Debug,,"Request #1,667: GET     -   113 ms - Mvc5DB     - 200 - /stats?noCache=2059371801",
+2013-08-18 22:03:03.0794,Raven.Database.Server.HttpServer,Debug,,"Request #1,668: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=-1248246995",
+2013-08-18 22:03:08.1718,Raven.Database.Server.HttpServer,Debug,,"Request #1,669: GET     -    34 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1049436983",
+2013-08-18 22:03:08.1999,Raven.Database.Server.HttpServer,Debug,,"Request #1,670: GET     -    61 ms - Mvc5DB     - 200 - /stats?noCache=1268687805",
+2013-08-18 22:03:18.4177,Raven.Database.Server.HttpServer,Debug,,"Request #1,671: GET     -    66 ms - Mvc5DB     - 200 - /stats?noCache=-727913695",
+2013-08-18 22:03:28.6937,Raven.Database.Server.HttpServer,Debug,,"Request #1,672: GET     -    35 ms - <system>   - 200 - /databases?pageSize=1024&noCache=550936206",
+2013-08-18 22:03:28.7167,Raven.Database.Server.HttpServer,Debug,,"Request #1,673: GET     -    57 ms - Mvc5DB     - 200 - /stats?noCache=1136173405",
+2013-08-18 22:03:34.7618,Raven.Database.Server.HttpServer,Debug,,"Request #1,674: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1477315145",
+2013-08-18 22:03:34.7798,Raven.Database.Server.HttpServer,Debug,,"Request #1,675: GET     -    54 ms - Mvc5DB     - 200 - /stats?noCache=231044281",
+2013-08-18 22:03:39.8813,Raven.Database.Server.HttpServer,Debug,,"Request #1,676: GET     -    38 ms - Mvc5DB     - 200 - /stats?noCache=937551378",
+2013-08-18 22:03:44.9847,Raven.Database.Server.HttpServer,Debug,,"Request #1,677: GET     -    41 ms - Mvc5DB     - 200 - /stats?noCache=923828722",
+2013-08-18 22:03:50.0871,Raven.Database.Server.HttpServer,Debug,,"Request #1,678: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=-715512035",
+2013-08-18 22:03:55.2085,Raven.Database.Server.HttpServer,Debug,,"Request #1,679: GET     -    80 ms - Mvc5DB     - 200 - /stats?noCache=1327922947",
+2013-08-18 22:04:05.4841,Raven.Database.Server.HttpServer,Debug,,"Request #1,680: GET     -    80 ms - Mvc5DB     - 200 - /stats?noCache=-210130470",
+2013-08-18 22:04:10.6196,Raven.Database.Server.HttpServer,Debug,,"Request #1,681: GET     -    69 ms - Mvc5DB     - 200 - /stats?noCache=1354414883",
+2013-08-18 22:04:25.9008,Raven.Database.Server.HttpServer,Debug,,"Request #1,682: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1159508916",
+2013-08-18 22:04:25.9008,Raven.Database.Server.HttpServer,Debug,,"Request #1,683: GET     -    51 ms - Mvc5DB     - 200 - /stats?noCache=127960482",
+2013-08-18 22:04:30.9722,Raven.Database.Server.HttpServer,Debug,,"Request #1,684: GET     -    35 ms - Mvc5DB     - 200 - /stats?noCache=299203944",
+2013-08-18 22:05:42.6703,Raven.Database.Server.HttpServer,Debug,,"Request #1,685: GET     -    56 ms - Mvc5DB     - 200 - /stats?noCache=376258855",
+2013-08-18 22:05:47.7338,Raven.Database.Server.HttpServer,Debug,,"Request #1,686: GET     -    41 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1673115253",
+2013-08-18 22:05:47.7338,Raven.Database.Server.HttpServer,Debug,,"Request #1,687: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=-500488127",
+2013-08-18 22:06:03.0471,Raven.Database.Server.HttpServer,Debug,,"Request #1,688: GET     -    28 ms - Mvc5DB     - 200 - /stats?noCache=-658621744",
+2013-08-18 22:06:08.1895,Raven.Database.Server.HttpServer,Debug,,"Request #1,689: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1083070995",
+2013-08-18 22:06:08.1995,Raven.Database.Server.HttpServer,Debug,,"Request #1,690: GET     -    51 ms - Mvc5DB     - 200 - /stats?noCache=683074903",
+2013-08-18 22:06:23.5098,Raven.Database.Server.HttpServer,Debug,,"Request #1,691: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=282884149",
+2013-08-18 22:06:23.6219,Raven.Database.Server.HttpServer,Debug,,"Request #1,692: GET     -   154 ms - Mvc5DB     - 200 - /stats?noCache=-474292894",
+2013-08-18 22:06:34.7234,Raven.Database.Server.HttpServer,Debug,,"Request #1,693: GET     -    62 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-2002175878",
+2013-08-18 22:06:34.7524,Raven.Database.Server.HttpServer,Debug,,"Request #1,694: GET     -    91 ms - Mvc5DB     - 200 - /stats?noCache=-1197199154",
+2013-08-18 22:06:55.1592,Raven.Database.Server.HttpServer,Debug,,"Request #1,695: GET     -    82 ms - Mvc5DB     - 200 - /stats?noCache=2016757332",
+2013-08-18 22:07:06.2432,Raven.Database.Server.HttpServer,Debug,,"Request #1,696: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-1111606302",
+2013-08-18 22:07:11.3426,Raven.Database.Server.HttpServer,Debug,,"Request #1,697: GET     -    55 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1818427048",
+2013-08-18 22:07:11.3426,Raven.Database.Server.HttpServer,Debug,,"Request #1,698: GET     -    61 ms - Mvc5DB     - 200 - /stats?noCache=-251705902",
+2013-08-18 22:07:16.5561,Raven.Database.Server.HttpServer,Debug,,"Request #1,699: GET     -    73 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1968076009",
+2013-08-18 22:07:16.5751,Raven.Database.Server.HttpServer,Debug,,"Request #1,700: GET     -    92 ms - Mvc5DB     - 200 - /stats?noCache=-1626562522",
+2013-08-18 22:07:22.6252,Raven.Database.Server.HttpServer,Debug,,"Request #1,701: GET     -    55 ms - Mvc5DB     - 200 - /stats?noCache=-249779966",
+2013-08-18 22:07:27.7386,Raven.Database.Server.HttpServer,Debug,,"Request #1,702: GET     -    36 ms - <system>   - 200 - /databases?pageSize=1024&noCache=11292204",
+2013-08-18 22:07:27.8827,Raven.Database.Server.HttpServer,Debug,,"Request #1,703: GET     -   180 ms - Mvc5DB     - 200 - /stats?noCache=1682140884",
+2013-08-18 22:07:33.8507,Raven.Database.Server.HttpServer,Debug,,"Request #1,704: GET     -    39 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-52700174",
+2013-08-18 22:07:33.8887,Raven.Database.Server.HttpServer,Debug,,"Request #1,705: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-1242870908",
+2013-08-18 22:08:05.5060,Raven.Database.Server.HttpServer,Debug,,"Request #1,706: GET     -    33 ms - Mvc5DB     - 200 - /stats?noCache=-944070653",
+2013-08-18 22:08:10.6521,Raven.Database.Server.HttpServer,Debug,,"Request #1,707: GET     -    45 ms - Mvc5DB     - 200 - /stats?noCache=580449085",
+2013-08-18 22:08:20.8209,Raven.Database.Server.HttpServer,Debug,,"Request #1,708: GET     -    37 ms - Mvc5DB     - 200 - /stats?noCache=717663378",
+2013-08-18 22:08:25.9874,Raven.Database.Server.HttpServer,Debug,,"Request #1,709: GET     -    36 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1682905392",
+2013-08-18 22:08:26.0174,Raven.Database.Server.HttpServer,Debug,,"Request #1,710: GET     -    65 ms - Mvc5DB     - 200 - /stats?noCache=-1778707380",
+2013-08-18 22:08:31.0949,Raven.Database.Server.HttpServer,Debug,,"Request #1,711: GET     -    31 ms - Mvc5DB     - 200 - /stats?noCache=609457410",
+2013-08-18 22:08:41.4308,Raven.Database.Server.HttpServer,Debug,,"Request #1,712: GET     -    86 ms - Mvc5DB     - 200 - /stats?noCache=49008298",
+2013-08-18 22:08:47.4969,Raven.Database.Server.HttpServer,Debug,,"Request #1,713: GET     -    54 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1743253490",
+2013-08-18 22:08:47.5269,Raven.Database.Server.HttpServer,Debug,,"Request #1,714: GET     -    84 ms - Mvc5DB     - 200 - /stats?noCache=2086205229",
+2013-08-18 22:08:52.6433,Raven.Database.Server.HttpServer,Debug,,"Request #1,715: GET     -    62 ms - Mvc5DB     - 200 - /stats?noCache=-1745574704",
+2013-08-18 22:08:58.7444,Raven.Database.Server.HttpServer,Debug,,"Request #1,716: GET     -    82 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1889501402",
+2013-08-18 22:08:58.7444,Raven.Database.Server.HttpServer,Debug,,"Request #1,717: GET     -    93 ms - Mvc5DB     - 200 - /stats?noCache=438542999",
+2013-08-18 22:09:04.8915,Raven.Database.Server.HttpServer,Debug,,"Request #1,718: GET     -    62 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1349057017",
+2013-08-18 22:09:04.9336,Raven.Database.Server.HttpServer,Debug,,"Request #1,719: GET     -   104 ms - Mvc5DB     - 200 - /stats?noCache=876675343",
+2013-08-18 22:09:10.9586,Raven.Database.Server.HttpServer,Debug,,"Request #1,720: GET     -    33 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-978140666",
+2013-08-18 22:09:10.9766,Raven.Database.Server.HttpServer,Debug,,"Request #1,721: GET     -    51 ms - Mvc5DB     - 200 - /stats?noCache=947869681",
+2013-08-18 22:09:16.0610,Raven.Database.Server.HttpServer,Debug,,"Request #1,722: GET     -    31 ms - <system>   - 200 - /databases?pageSize=1024&noCache=2129305946",
+2013-08-18 22:09:16.1421,Raven.Database.Server.HttpServer,Debug,,"Request #1,723: GET     -   112 ms - Mvc5DB     - 200 - /stats?noCache=1389704968",
+2013-08-18 22:09:22.1181,Raven.Database.Server.HttpServer,Debug,,"Request #1,724: GET     -    27 ms - <system>   - 200 - /databases?pageSize=1024&noCache=487157442",
+2013-08-18 22:09:22.1481,Raven.Database.Server.HttpServer,Debug,,"Request #1,725: GET     -    56 ms - Mvc5DB     - 200 - /stats?noCache=-1831813755",
+2013-08-18 22:09:28.4083,Raven.Database.Server.HttpServer,Debug,,"Request #1,726: GET     -   222 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1040033995",
+2013-08-18 22:09:28.4783,Raven.Database.Server.HttpServer,Debug,,"Request #1,727: GET     -   292 ms - Mvc5DB     - 200 - /stats?noCache=-888941434",
+2013-08-18 22:09:34.3703,Raven.Database.Server.HttpServer,Debug,,"Request #1,728: GET     -   102 ms - Mvc5DB     - 200 - /stats?noCache=1641230594",
+2013-08-18 22:09:59.8683,Raven.Database.Server.HttpServer,Debug,,"Request #1,729: GET     -    26 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1383599052",
+2013-08-18 22:09:59.8863,Raven.Database.Server.HttpServer,Debug,,"Request #1,730: GET     -    45 ms - Mvc5DB     - 200 - /stats?noCache=-1227545453",
+2013-08-18 22:10:05.9467,Raven.Database.Server.HttpServer,Debug,,"Request #1,731: GET     -    49 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1004962234",
+2013-08-18 22:10:05.9717,Raven.Database.Server.HttpServer,Debug,,"Request #1,732: GET     -    74 ms - Mvc5DB     - 200 - /stats?noCache=-1534287367",
+2013-08-18 22:10:11.1302,Raven.Database.Server.HttpServer,Debug,,"Request #1,733: GET     -    49 ms - Mvc5DB     - 200 - /stats?noCache=728122307",
+2013-08-18 22:10:16.1745,Raven.Database.Server.HttpServer,Debug,,"Request #1,734: GET     -    30 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1731860661",
+2013-08-18 22:10:16.1935,Raven.Database.Server.HttpServer,Debug,,"Request #1,735: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=-1795916192",
+2013-08-18 22:10:21.3080,Raven.Database.Server.HttpServer,Debug,,"Request #1,736: GET     -    44 ms - Mvc5DB     - 200 - /stats?noCache=-71374823",
+2013-08-18 22:10:22.6539,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:10:22.8050,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:10:46.8450,Raven.Database.Server.HttpServer,Debug,,"Request #1,737: GET     -    60 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1451423750",
+2013-08-18 22:10:46.8710,Raven.Database.Server.HttpServer,Debug,,"Request #1,738: GET     -    85 ms - Mvc5DB     - 200 - /stats?noCache=-194512194",
+2013-08-18 22:10:50.4334,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:10:50.4714,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:10:57.2171,Raven.Database.Server.HttpServer,Debug,,"Request #1,739: GET     -   229 ms - Mvc5DB     - 200 - /stats?noCache=714378241",
+2013-08-18 22:11:08.1964,Raven.Database.Server.HttpServer,Debug,,"Request #1,740: GET     -    42 ms - Mvc5DB     - 200 - /stats?noCache=-1476526176",
+2013-08-18 22:11:33.7645,Raven.Database.Server.HttpServer,Debug,,"Request #1,741: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=614626387",
+2013-08-18 22:11:38.8609,Raven.Database.Server.HttpServer,Debug,,"Request #1,742: GET     -    30 ms - Mvc5DB     - 200 - /stats?noCache=2046758914",
+2013-08-18 22:11:49.1079,Raven.Database.Server.HttpServer,Debug,,"Request #1,743: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-242148179",
+2013-08-18 22:11:54.2333,Raven.Database.Server.HttpServer,Debug,,"Request #1,744: GET     -    33 ms - <system>   - 200 - /databases?pageSize=1024&noCache=674455783",
+2013-08-18 22:11:54.2844,Raven.Database.Server.HttpServer,Debug,,"Request #1,745: GET     -    83 ms - Mvc5DB     - 200 - /stats?noCache=-252949106",
+2013-08-18 22:12:00.3164,Raven.Database.Server.HttpServer,Debug,,"Request #1,746: GET     -    50 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1220887298",
+2013-08-18 22:12:00.3314,Raven.Database.Server.HttpServer,Debug,,"Request #1,747: GET     -    65 ms - Mvc5DB     - 200 - /stats?noCache=-92092469",
+2013-08-18 22:15:04.4800,Raven.Database.Server.HttpServer,Debug,,"Request #1,748: GET     -    42 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1601765438",
+2013-08-18 22:15:04.4800,Raven.Database.Server.HttpServer,Debug,,"Request #1,749: GET     -    54 ms - Mvc5DB     - 200 - /stats?noCache=969743636",
+2013-08-18 22:15:09.5634,Raven.Database.Server.HttpServer,Debug,,"Request #1,750: GET     -    43 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-946015957",
+2013-08-18 22:15:09.5835,Raven.Database.Server.HttpServer,Debug,,"Request #1,751: GET     -    62 ms - Mvc5DB     - 200 - /stats?noCache=-123600070",
+2013-08-18 22:15:15.7426,Raven.Database.Server.HttpServer,Debug,,"Request #1,752: GET     -   147 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1659295855",
+2013-08-18 22:15:15.7626,Raven.Database.Server.HttpServer,Debug,,"Request #1,753: GET     -   167 ms - Mvc5DB     - 200 - /stats?noCache=2126538142",
+2013-08-18 22:15:21.7546,Raven.Database.Server.HttpServer,Debug,,"Request #1,754: GET     -    37 ms - <system>   - 200 - /databases?pageSize=1024&noCache=39419851",
+2013-08-18 22:15:21.7746,Raven.Database.Server.HttpServer,Debug,,"Request #1,755: GET     -    57 ms - Mvc5DB     - 200 - /stats?noCache=-393170967",
+2013-08-18 22:15:26.9021,Raven.Database.Server.HttpServer,Debug,,"Request #1,756: GET     -    38 ms - Mvc5DB     - 200 - /stats?noCache=657772352",
+2013-08-18 22:15:47.4005,Raven.Database.Server.HttpServer,Debug,,"Request #1,757: GET     -    70 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1061935323",
+2013-08-18 22:15:47.4785,Raven.Database.Server.HttpServer,Debug,,"Request #1,758: GET     -   147 ms - Mvc5DB     - 200 - /stats?noCache=1399260780",
+2013-08-18 22:15:53.4235,Raven.Database.Server.HttpServer,Debug,,"Request #1,759: GET     -    43 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-656412997",
+2013-08-18 22:15:53.4235,Raven.Database.Server.HttpServer,Debug,,"Request #1,760: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=1031772447",
+2013-08-18 22:15:58.6280,Raven.Database.Server.HttpServer,Debug,,"Request #1,761: GET     -   176 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1165951989",
+2013-08-18 22:15:58.6891,Raven.Database.Server.HttpServer,Debug,,"Request #1,762: GET     -   237 ms - Mvc5DB     - 200 - /stats?noCache=500407437",
+2013-08-18 22:20:22.6555,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:20:22.8056,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:20:50.4345,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:20:50.4966,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:22:40.7635,Raven.Database.Server.HttpServer,Debug,,"Request #1,763: GET     -    27 ms - Mvc5DB     - 200 - /stats?noCache=-816611060",
+2013-08-18 22:23:01.2833,Raven.Database.Server.HttpServer,Debug,,"Request #1,764: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-111970794",
+2013-08-18 22:26:35.9279,Raven.Database.Server.HttpServer,Debug,,"Request #1,765: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=-534619443",
+2013-08-18 22:27:21.9031,Raven.Database.Server.HttpServer,Debug,,"Request #1,766: GET     -    28 ms - Mvc5DB     - 200 - /stats?noCache=-1928452857",
+2013-08-18 22:28:33.5451,Raven.Database.Server.HttpServer,Debug,,"Request #1,767: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=-1495423976",
+2013-08-18 22:28:43.7716,Raven.Database.Server.HttpServer,Debug,,"Request #1,768: GET     -    53 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1329995279",
+2013-08-18 22:28:43.7886,Raven.Database.Server.HttpServer,Debug,,"Request #1,769: GET     -    70 ms - Mvc5DB     - 200 - /stats?noCache=693140892",
+2013-08-18 22:29:00.0569,Raven.Database.Server.HttpServer,Debug,,"Request #1,770: GET     -    61 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-431313471",
+2013-08-18 22:29:00.0729,Raven.Database.Server.HttpServer,Debug,,"Request #1,771: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-1918512824",
+2013-08-18 22:29:20.5210,Raven.Database.Server.HttpServer,Debug,,"Request #1,772: GET     -    74 ms - Mvc5DB     - 200 - /stats?noCache=711898577",
+2013-08-18 22:29:35.7940,Raven.Database.Server.HttpServer,Debug,,"Request #1,773: GET     -    29 ms - Mvc5DB     - 200 - /stats?noCache=-1930370167",
+2013-08-18 22:30:01.3612,Raven.Database.Server.HttpServer,Debug,,"Request #1,774: GET     -    31 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1911508853",
+2013-08-18 22:30:01.3732,Raven.Database.Server.HttpServer,Debug,,"Request #1,775: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=1985927191",
+2013-08-18 22:30:16.5643,Raven.Database.Server.HttpServer,Debug,,"Request #1,776: GET     -    28 ms - <system>   - 200 - /databases?pageSize=1024&noCache=2030866756",
+2013-08-18 22:30:16.6073,Raven.Database.Server.HttpServer,Debug,,"Request #1,777: GET     -    71 ms - Mvc5DB     - 200 - /stats?noCache=533619393",
+2013-08-18 22:30:22.6564,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:30:22.8065,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:30:48.4218,Raven.Database.Server.HttpServer,Debug,,"Request #1,778: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-1087599939",
+2013-08-18 22:30:50.4875,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:30:50.4995,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:36:38.1271,Raven.Database.Server.HttpServer,Debug,,"Request #1,779: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=1408942031",
+2013-08-18 22:40:22.6582,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:40:22.8083,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:40:50.4889,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:40:50.5199,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:40:54.0532,Raven.Database.Server.HttpServer,Debug,,"Request #1,780: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=1143175752",
+2013-08-18 22:40:59.1927,Raven.Database.Server.HttpServer,Debug,,"Request #1,781: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=-1525773137",
+2013-08-18 22:41:14.4374,Raven.Database.Server.HttpServer,Debug,,"Request #1,782: GET     -    29 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1590772254",
+2013-08-18 22:41:14.4524,Raven.Database.Server.HttpServer,Debug,,"Request #1,783: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=1247302289",
+2013-08-18 22:41:34.7825,Raven.Database.Server.HttpServer,Debug,,"Request #1,784: GET     -    44 ms - <system>   - 200 - /databases?pageSize=1024&noCache=538230098",
+2013-08-18 22:41:34.8616,Raven.Database.Server.HttpServer,Debug,,"Request #1,785: GET     -   123 ms - Mvc5DB     - 200 - /stats?noCache=-1763986421",
+2013-08-18 22:41:55.6822,Raven.Database.Server.HttpServer,Debug,,"Request #1,786: GET     -   222 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1746503598",
+2013-08-18 22:41:55.6822,Raven.Database.Server.HttpServer,Debug,,"Request #1,787: GET     -   233 ms - Mvc5DB     - 200 - /stats?noCache=-116046127",
+2013-08-18 22:42:06.8806,Raven.Database.Server.HttpServer,Debug,,"Request #1,788: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=575497011",
+2013-08-18 22:42:11.9610,Raven.Database.Server.HttpServer,Debug,,"Request #1,789: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=-2041171316",
+2013-08-18 22:42:22.0949,Raven.Database.Server.HttpServer,Debug,,"Request #1,790: GET     -    27 ms - Mvc5DB     - 200 - /stats?noCache=1803436128",
+2013-08-18 22:42:27.2214,Raven.Database.Server.HttpServer,Debug,,"Request #1,791: GET     -    31 ms - Mvc5DB     - 200 - /stats?noCache=414282117",
+2013-08-18 22:43:40.0464,Raven.Database.Server.HttpServer,Debug,,"Request #1,792: GET     -    76 ms - Mvc5DB     - 200 - /stats?noCache=-149233496",
+2013-08-18 22:44:10.7679,Raven.Database.Server.HttpServer,Debug,,"Request #1,793: GET     -    80 ms - Mvc5DB     - 200 - /stats?noCache=1862042575",
+2013-08-18 22:44:17.3553,Raven.Database.Server.HttpServer,Debug,,"Request #1,794: GET     - 1,531 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1552966480",
+2013-08-18 22:44:17.5515,Raven.Database.Server.HttpServer,Debug,,"Request #1,795: GET     - 1,727 ms - Mvc5DB     - 200 - /stats?noCache=-198913377",
+2013-08-18 22:44:23.0291,Raven.Database.Server.HttpServer,Debug,,"Request #1,796: GET     -    41 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1706320556",
+2013-08-18 22:44:23.0551,Raven.Database.Server.HttpServer,Debug,,"Request #1,797: GET     -    67 ms - Mvc5DB     - 200 - /stats?noCache=-1880824644",
+2013-08-18 22:44:28.1776,Raven.Database.Server.HttpServer,Debug,,"Request #1,798: GET     -    49 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1478260129",
+2013-08-18 22:44:28.2046,Raven.Database.Server.HttpServer,Debug,,"Request #1,799: GET     -    75 ms - Mvc5DB     - 200 - /stats?noCache=1481592847",
+2013-08-18 22:44:58.8601,Raven.Database.Server.HttpServer,Debug,,"Request #1,800: GET     -    34 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-1661999200",
+2013-08-18 22:44:58.8701,Raven.Database.Server.HttpServer,Debug,,"Request #1,801: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=2005859293",
+2013-08-18 22:45:04.0314,Raven.Database.Server.HttpServer,Debug,,"Request #1,802: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=-454668295",
+2013-08-18 22:45:15.3740,Raven.Database.Server.HttpServer,Debug,,"Request #1,803: GET     -   195 ms - Mvc5DB     - 200 - /stats?noCache=1006642034",
+2013-08-18 22:45:41.7571,Raven.Database.Server.HttpServer,Debug,,"Request #1,804: GET     -    82 ms - Mvc5DB     - 200 - /stats?noCache=-492804329",
+2013-08-18 22:46:13.4634,Raven.Database.Server.HttpServer,Debug,,"Request #1,805: GET     -    55 ms - Mvc5DB     - 200 - /stats?noCache=-886387519",
+2013-08-18 22:47:40.8026,Raven.Database.Server.HttpServer,Debug,,"Request #1,806: GET     -   138 ms - Mvc5DB     - 200 - /stats?noCache=433876270",
+2013-08-18 22:47:46.8467,Raven.Database.Server.HttpServer,Debug,,"Request #1,807: GET     -    67 ms - Mvc5DB     - 200 - /stats?noCache=-1875695702",
+2013-08-18 22:48:33.9253,Raven.Database.Server.HttpServer,Debug,,"Request #1,808: GET     -    45 ms - Mvc5DB     - 200 - /stats?noCache=1803081808",
+2013-08-18 22:48:49.2744,Raven.Database.Server.HttpServer,Debug,,"Request #1,809: GET     -    36 ms - <system>   - 200 - /databases?pageSize=1024&noCache=1009264292",
+2013-08-18 22:48:49.2864,Raven.Database.Server.HttpServer,Debug,,"Request #1,810: GET     -    48 ms - Mvc5DB     - 200 - /stats?noCache=733401064",
+2013-08-18 22:50:22.6599,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:50:22.8100,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:50:50.4915,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 22:50:50.5646,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 22:50:54.3911,Raven.Database.Server.HttpServer,Debug,,"Request #1,811: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=1387553952",
+2013-08-18 22:50:59.5796,Raven.Database.Server.HttpServer,Debug,,"Request #1,812: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=233719307",
+2013-08-18 22:51:04.7621,Raven.Database.Server.HttpServer,Debug,,"Request #1,813: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=-557107682",
+2013-08-18 22:51:10.8852,Raven.Database.Server.HttpServer,Debug,,"Request #1,814: GET     - 1,037 ms - Mvc5DB     - 200 - /stats?noCache=605684950",
+2013-08-18 22:51:21.2081,Raven.Database.Server.HttpServer,Debug,,"Request #1,815: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=78306414",
+2013-08-18 22:51:51.8788,Raven.Database.Server.HttpServer,Debug,,"Request #1,816: GET     -    27 ms - Mvc5DB     - 200 - /stats?noCache=-295722919",
+2013-08-18 22:53:10.5090,Raven.Database.Server.HttpServer,Debug,,"Request #1,817: GET     -   836 ms - Mvc5DB     - 200 - /stats?noCache=-1266085683",
+2013-08-18 22:53:20.8460,Raven.Database.Server.HttpServer,Debug,,"Request #1,818: GET     -    31 ms - <system>   - 200 - /databases?pageSize=1024&noCache=654312478",
+2013-08-18 22:53:20.8580,Raven.Database.Server.HttpServer,Debug,,"Request #1,819: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=258576068",
+2013-08-18 22:53:31.3250,Raven.Database.Server.HttpServer,Debug,,"Request #1,820: GET     -   291 ms - Mvc5DB     - 200 - /stats?noCache=-72637769",
+2013-08-18 22:53:52.6530,Raven.Database.Server.HttpServer,Debug,,"Request #1,821: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=-320106653",
+2013-08-18 22:54:08.0448,Raven.Database.Server.HttpServer,Debug,,"Request #1,822: GET     -    44 ms - <system>   - 200 - /databases?pageSize=1024&noCache=55137124",
+2013-08-18 22:54:08.0448,Raven.Database.Server.HttpServer,Debug,,"Request #1,823: GET     -    53 ms - Mvc5DB     - 200 - /stats?noCache=-727588860",
+2013-08-18 22:54:13.1442,Raven.Database.Server.HttpServer,Debug,,"Request #1,824: GET     -    29 ms - Mvc5DB     - 200 - /stats?noCache=575589509",
+2013-08-18 22:54:23.3494,Raven.Database.Server.HttpServer,Debug,,"Request #1,825: GET     -    39 ms - Mvc5DB     - 200 - /stats?noCache=-1442869408",
+2013-08-18 22:54:28.4472,Raven.Database.Server.HttpServer,Debug,,"Request #1,826: GET     -    50 ms - Mvc5DB     - 200 - /stats?noCache=1592986513",
+2013-08-18 22:55:31.7598,Raven.Database.Server.HttpServer,Debug,,"Request #1,827: GET     -   119 ms - Mvc5DB     - 200 - /stats?noCache=-1162848153",
+2013-08-18 22:55:42.8846,Raven.Database.Server.HttpServer,Debug,,"Request #1,828: GET     -    34 ms - Mvc5DB     - 200 - /stats?noCache=1819338374",
+2013-08-18 22:55:53.0052,Raven.Database.Server.HttpServer,Debug,,"Request #1,829: GET     -    35 ms - Mvc5DB     - 200 - /stats?noCache=-917994218",
+2013-08-18 22:57:31.0853,Raven.Database.Server.HttpServer,Debug,,"Request #1,830: GET     -    26 ms - Mvc5DB     - 200 - /stats?noCache=-1875731281",
+2013-08-18 23:00:22.6615,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 23:00:22.8106,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 23:00:40.1903,Raven.Database.Server.HttpServer,Debug,,"Request #1,831: GET     -    32 ms - Mvc5DB     - 200 - /stats?noCache=503515290",
+2013-08-18 23:00:50.4923,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 23:00:50.7315,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 23:06:38.1834,Raven.Database.Server.HttpServer,Debug,,"Request #1,832: GET     -    43 ms - Mvc5DB     - 200 - /stats?noCache=-162541788",
+2013-08-18 23:10:22.6619,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2013-08-18 23:10:22.8120,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2013-08-18 23:10:50.4932,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-18 23:10:50.7344,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-18 23:14:24.8809,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 23:14:24.8809,Raven.Database.Server.HttpServer,Debug,,"Request #1,833: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=disconnect&noCache=1020683390",
+2013-08-18 23:14:25.1841,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-18 23:14:25.1841,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"

@@ -1,0 +1,137 @@
+time,logger,level,database,message,exception
+2013-08-16 11:13:01.4339,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,482: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:13:01.4339,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,483: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:13:05.5735,Raven.Database.Server.HttpServer,Warn,,Error on request,"System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at Raven.Database.Util.Streams.BufferPoolStream.InternalFlush() in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 69
+   at Raven.Database.Util.Streams.BufferPoolStream.Flush() in c:\Builds\RavenDB-Stable\Raven.Database\Util\Streams\BufferPoolStream.cs:line 61
+   at Raven.Database.Extensions.HttpExtensions.WriteJson(IHttpContext context, RavenJToken obj) in c:\Builds\RavenDB-Stable\Raven.Database\Extensions\HttpExtensions.cs:line 131
+   at Raven.Database.Server.HttpServer.DispatchRequest(IHttpContext ctx) in c:\Builds\RavenDB-Stable\Raven.Database\Server\HttpServer.cs:line 783
+   at Raven.Database.Server.HttpServer.HandleActualRequest(IHttpContext ctx) in c:\Builds\RavenDB-Stable\Raven.Database\Server\HttpServer.cs:line 645"
+2013-08-16 11:13:05.5735,Raven.Database.Server.HttpServer,Debug,,"Request #1,484: GET     - 48,133,935 ms - Mvc5DB     - 500 - /stats?noCache=564087563",
+2013-08-16 11:13:09.1929,Raven.Database.Server.HttpServer,Debug,,"Request #1,485: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-docs&noCache=1825002305",
+2013-08-16 11:13:09.1929,Raven.Database.Server.HttpServer,Debug,,"Request #1,486: GET     -     1 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-docs&noCache=-1219022098",
+2013-08-16 11:13:11.4525,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-16 11:13:14.4575,Raven.Database.Server.HttpServer,Debug,,"Request #1,487: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-indexes&noCache=1828652962",
+2013-08-16 11:13:15.9225,Raven.Database.Server.HttpServer,Debug,,"Request #1,488: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-docs&noCache=-1540551204",
+2013-08-16 11:13:15.9225,Raven.Database.Server.HttpServer,Debug,,"Request #1,489: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-indexes&noCache=-2092062348",
+2013-08-16 11:13:16.4488,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,490: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:13:18.5552,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-16 11:13:18.8344,Raven.Database.Server.HttpServer,Debug,,"Request #1,491: GET     -     0 ms - Mvc5DB     - 200 - /changes/config?id=2/24j71U&command=watch-docs&noCache=-627758925",
+2013-08-16 11:13:18.9585,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-16 11:13:25.4728,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,492: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:13:25.4728,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,493: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:13:25.4728,Raven.Database.Server.HttpServer,Debug,Mvc5DB,"Request #1,494: GET     -     0 ms - Mvc5DB     - 200 - /changes/events?id=2/24j71U",
+2013-08-16 11:16:09.5751,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:16:09.5882,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:16:11.4914,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:16:11.6746,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:26:09.5778,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:26:09.6068,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:26:11.5132,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:26:11.6764,Raven.Database.Indexing.WorkContext,Debug,Mvc5DB,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:28:43.3500,Raven.Database.Indexing.WorkContext,Debug,,Stopping background workers,
+2013-08-16 11:36:09.5787,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:36:09.6588,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:46:09.5980,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:46:09.6791,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 11:56:09.5993,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 11:56:09.7124,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:06:09.5994,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:06:09.7135,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:16:09.6064,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:16:09.7265,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:26:09.6080,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:26:09.7601,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:36:09.6092,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:36:09.8043,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:46:09.6109,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:46:09.8491,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 12:56:09.6955,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 12:56:09.8606,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:06:09.7282,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:06:09.8703,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:16:09.7398,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:16:09.8729,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:26:09.7413,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:26:09.9044,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:36:09.7430,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:36:09.9162,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:46:09.7445,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:46:09.9277,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 13:56:09.7622,Raven.Database.Indexing.WorkContext,Debug,<system>,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2013-08-16 13:56:09.9394,Raven.Database.Indexing.WorkContext,Debug,,"No work was found, workerWorkCounter: 3, for: IndexingExecuter, will wait for additional work",
+2013-08-16 17:04:26.8419,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-16 17:04:26.8419,Raven.Database.Server.HttpServer,Debug,,"Request #1,495: GET     -   403 ms - <system>   - 200 - /databases?pageSize=1024&noCache=-596674533",
+2013-08-16 17:04:36.8665,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-16 17:04:36.8665,Raven.Database.Server.HttpServer,Debug,,Error when using events transport,"System.AggregateException: One or more errors occurred. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.<>c__DisplayClass4.<WriteAsync>b__2(AsyncCallback callback, Object state) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 131
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync(Func`3 beginMethod, Action`1 endMethod, Object state, TaskCreationOptions creationOptions)
+   at Raven.Database.Server.Abstractions.HttpListenerResponseAdapter.WriteAsync(String data) in c:\Builds\RavenDB-Stable\Raven.Database\Server\Abstractions\HttpListenerResponseAdapter.cs:line 130<---
+"
+2013-08-16 17:04:38.8339,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-16 17:04:38.8339,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-16 17:04:38.8339,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-16 17:04:38.8339,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,
+2013-08-16 17:04:38.8339,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,Document with key 'Raven/Databases/Mvc5DB' was found,

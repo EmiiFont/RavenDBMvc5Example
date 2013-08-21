@@ -1,0 +1,4 @@
+C:\Users\Emilio\documents\visual studio 2013\Projects\MongoDBMvc5\RavenDBMvc5.Core\bin\Debug\RavenDBMvc5.Core.dll
+C:\Users\Emilio\documents\visual studio 2013\Projects\MongoDBMvc5\RavenDBMvc5.Core\bin\Debug\RavenDBMvc5.Core.pdb
+C:\Users\Emilio\documents\visual studio 2013\Projects\MongoDBMvc5\RavenDBMvc5.Core\obj\Debug\RavenDBMvc5.Core.dll
+C:\Users\Emilio\documents\visual studio 2013\Projects\MongoDBMvc5\RavenDBMvc5.Core\obj\Debug\RavenDBMvc5.Core.pdb
