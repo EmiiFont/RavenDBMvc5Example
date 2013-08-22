@@ -13,12 +13,12 @@ List in a simple html table some records.
 Add to the database a record
 
 <h4>What it Uses</h4>
-
-RavenDb v2.5.2666 (Client and Server)
-ASP.NET MVC5
-Ninject for IoC
-An attempt to simulate a production solution layout (eg. IoC, Service, Core)
-
+<ul>
+<li>RavenDb v2.5.2666 (Client and Server)</li>
+<li>ASP.NET MVC5</li>
+<li>Ninject for IoC</li>
+<li>An attempt to simulate a production solution layout (eg. IoC, Service, Core)</li>
+</ul>
 <h4>What it is NOT</h4>
 
 A best practice application. I'm a noob, so this is a learning experience.
