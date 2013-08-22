@@ -2,6 +2,7 @@
 
 namespace RavenDBMvc5.Core.Entities
 {
+    //TODO: Shouldn't this be singular? 
     public class Items
     {
         public int Id { get; set; }

@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDocumentStoreFactory.cs" />
     <Compile Include="IItemService.cs" />
     <Compile Include="ItemService.cs" />
     <Compile Include="RavenDbService.cs" />
